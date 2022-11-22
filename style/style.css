@@ -1,0 +1,127 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 900px;
+    height: 500px ;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 0;
+    margin: 50px auto;
+    border-top: 1px solid rgb(138, 136, 136);
+
+}
+
+.silla-amarilla{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    z-index: 0;
+    background-color: blueviolet;
+    margin: 100px 100px;
+    
+}
+
+.silla-amarilla img{
+    width: 200px;
+    height: 250px;
+
+}
+
+
+.silla-amarilla div{
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    padding: 2px;
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 0;
+
+}
+
+.silla-amarilla div h3{
+    font-size: 10px;
+    margin: 3px;
+}
+.silla-amarilla div h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 3px;
+}
+
+.sillones{
+    width: 450px;
+    height: 500px ;
+    background-color: violet;
+    position: relative;
+    z-index: 0;
+    justify-content: right;
+    
+}
+.sillones img{
+    width: 450px;
+    height: 500px;
+}    
+
+.sillones div{
+    
+    width: 300px;
+    height: 60px;
+    padding: 2px;
+    background-color: white;
+    justify-content: right;
+    position: absolute;
+    z-index: 1;
+     bottom: 10px;
+    left: 0;
+}
+
+.sillones div h3{
+    font-size: 10px;
+    margin: 3px;
+
+}
+
+.sillones div h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 3px;
+}
+
+.texto{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 300px;
+
+}
+
+.texto h3{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1px;
+    padding: 0;
+}
+.texto h1{
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    margin: 1px;
+    padding: 0
+}
+
+.texto a{
+    color: black;
+    font-weight: bold;
+}
+
+
+
